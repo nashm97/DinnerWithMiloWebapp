@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import { HomePageBackground } from './HomePage.styles';
-import { Banner } from '../Banner/Banner';
+import { NavBar } from '../NavBar/NavBar';
 import bannerImage from '../../images/homeBanner.jpg'
 
 const HomePage: FC<{}> = ({}) => {
     return (
         <HomePageBackground>
-        <Banner imageSrc={bannerImage}/>
+        <NavBar imageSrc={bannerImage}/>
         </HomePageBackground>
     );
 };
