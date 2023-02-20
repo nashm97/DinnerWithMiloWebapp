@@ -49,22 +49,22 @@ export const Header = styled.div`
 `
 
 export const AboutButton = styled.div`
-position: absolute;
-top: 60px;
-left: 77%;
-min-width: 150px;
+    position: absolute;
+    top: 60px;
+    left: 77%;
+    min-width: 150px;
 `
 
 export const HomeButton = styled.div`
-position: absolute;
-top: 60px;
-left: 10%;
-min-width: 50px;
+    position: absolute;
+    top: 60px;
+    left: 10%;
+    min-width: 50px;
 `
 
 export const ConnectButton = styled.div`
-position: absolute;
-top: 183px;
-left: max(40%, 130px);
-min-width: 50px;
+    position: absolute;
+    top: 183px;
+    left: max(40%, 130px);
+    min-width: 50px;
 `
