@@ -12,10 +12,10 @@ interface NavBarProps {
 export const NavBar: FC<NavBarProps> = ({image_src, border_colour}: NavBarProps) => {
 
     function NavigateToHomePage() {
-        window.location.assign("/dinner_with_milo_webapp")
+        window.location.assign("/")
     }
     function NavigateToAboutPage() {
-        window.location.assign("/dinner_with_milo_webapp/About")
+        window.location.assign("/about")
     }
     return (
         <NavBarContainer border_colour= {border_colour}>

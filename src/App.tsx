@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/dinner_with_milo_webapp' element= {<HomePage/>}/>
-        <Route path='/dinner_with_milo_webapp/About' element={<AboutPage/>}/>
+        <Route path='/' element= {<HomePage/>}/>
+        <Route path='/about' element={<AboutPage/>}/>
       </Routes>
     </BrowserRouter>
   );

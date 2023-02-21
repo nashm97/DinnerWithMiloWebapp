@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/dinner_with_milo_webapp/static/css/main.073c9b0a.css",
-    "main.js": "/dinner_with_milo_webapp/static/js/main.5b3b76d0.js",
-    "static/js/787.0c180bf0.chunk.js": "/dinner_with_milo_webapp/static/js/787.0c180bf0.chunk.js",
-    "static/media/homeBanner.jpg": "/dinner_with_milo_webapp/static/media/homeBanner.3b1d1fce2bb447bf2a7b.jpg",
-    "static/media/DWMLogo.jpg": "/dinner_with_milo_webapp/static/media/DWMLogo.5dc6d2694fea19000238.jpg",
-    "static/media/AboutBanner.jpg": "/dinner_with_milo_webapp/static/media/AboutBanner.0717585cb699895a1b4e.jpg",
-    "index.html": "/dinner_with_milo_webapp/index.html",
-    "main.073c9b0a.css.map": "/dinner_with_milo_webapp/static/css/main.073c9b0a.css.map",
-    "main.5b3b76d0.js.map": "/dinner_with_milo_webapp/static/js/main.5b3b76d0.js.map",
-    "787.0c180bf0.chunk.js.map": "/dinner_with_milo_webapp/static/js/787.0c180bf0.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.8c973765.js",
+    "static/js/787.0c180bf0.chunk.js": "/static/js/787.0c180bf0.chunk.js",
+    "static/media/homeBanner.jpg": "/static/media/homeBanner.3b1d1fce2bb447bf2a7b.jpg",
+    "static/media/DWMLogo.jpg": "/static/media/DWMLogo.5dc6d2694fea19000238.jpg",
+    "static/media/AboutBanner.jpg": "/static/media/AboutBanner.0717585cb699895a1b4e.jpg",
+    "static/media/beefstirfry.jpg": "/static/media/beefstirfry.d33f608009d7b9dd9813.jpg",
+    "static/media/tacoImage.jpg": "/static/media/tacoImage.3e6cced21a48943f51fc.jpg",
+    "static/media/pokebowlImage.jpg": "/static/media/pokebowlImage.738c6556731f7636b503.jpg",
+    "static/media/lemontart.jpg": "/static/media/lemontart.e814fec4fca085151d3a.jpg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.8c973765.js.map": "/static/js/main.8c973765.js.map",
+    "787.0c180bf0.chunk.js.map": "/static/js/787.0c180bf0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5b3b76d0.js"
+    "static/js/main.8c973765.js"
   ]
 }
