@@ -1,7 +1,7 @@
 {
   "name": "dinner_with_milo_webapp",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/dinner_with_milo_webapp",
+  "homepage": "https://dinner-with-milo-webapp-foc8d35ix-nashm97.vercel.app/",
   "private": true,
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.21.0",
