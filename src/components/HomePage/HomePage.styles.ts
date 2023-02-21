@@ -39,5 +39,4 @@ export const RecipeImage = styled.img`
     position:flex;
     width: 70%;
     border-radius: 12%
-    left: 20px;
 `;
