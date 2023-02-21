@@ -1,5 +1,5 @@
 {
     "rewrites":  [
-      {"source": "/(.*)", "destination": "/"}
+      {"source": "https://dinner-with-milo-webapp-foc8d35ix-nashm97.vercel.app/", "destination": "/dinner_with_milo_webapp"}
     ]
   }
