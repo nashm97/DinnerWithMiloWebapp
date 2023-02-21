@@ -1,5 +1,5 @@
 {
-    "rewrites":  [
-      {"source": "https://dinner-with-milo-webapp-foc8d35ix-nashm97.vercel.app/", "destination": "/dinner_with_milo_webapp"}
+    "routes":  [
+      {"src": "https://dinner-with-milo-webapp-foc8d35ix-nashm97.vercel.app/", "dest": "/dinner_with_milo_webapp"}
     ]
   }
