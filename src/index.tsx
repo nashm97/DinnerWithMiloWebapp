@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import '../fonts/BubbleWorld-nRG50.tff'; 
+// import '../fonts/foo.otf'; 
+// import '../fonts/Superfats-K4Vp.tff'; 
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

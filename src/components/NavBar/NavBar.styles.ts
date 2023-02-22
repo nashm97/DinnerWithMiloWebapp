@@ -18,11 +18,9 @@ export const NavBarContainer = styled.div<{ border_colour: string }>(
     height: 256px;
     text-align: center;
     border-style: solid;
-    border-width: 30px;
+    border-bottom-width: 30px;
     border-color: ${border_colour};
-    border-left-width:0px;
-    border-right-width:0px;
-    border-top-width:0px;  
+  
     `
 );
 
