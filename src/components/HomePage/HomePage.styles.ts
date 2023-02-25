@@ -27,7 +27,6 @@ export const RecipeGrid = styled.div`
         grid-template-columns: repeat(3, 15%);
     }
     padding-bottom:40px;
-    height:10%;
 `;
 
 export const RecipeContainer = styled.div`
