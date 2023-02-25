@@ -51,15 +51,10 @@ const TacoPage: FC<{}> = ({}) => {
                 </MethodDiv>
                 <MethodDiv>
                     <MethodText>
-                    
-
                     Add the other half of the Garlic to a bowl and then smash the avocado into it, season with salt and pepper and then squeeze in the lime, taste it for preference and adjust it.<br/><br/>
-
                     Heat a large pan to high heat, add the chicken, slowly stir it but allow it to get a bit burnt. Cook for a further 15 mins or until the chicken is cooked through.<br/><br/>
-
                     In the meantime, using the pan that the corn was cooked on, heat up 10-15 tortillas on medium high heat, or you can wrap them in foil and place them in the oven for 5-10 minutes at 180ºC.<br/><br/>
                     Dice the red onion and put it in a bowl.<br/><br/>
-
                     Place all the cooked ingredients including the salsa, onion and salad on a table and let people make their own tacos/tortillas. This lets everyone choose their own adventure and get a little creative<br/><br/>
                     </MethodText>
                 </MethodDiv>

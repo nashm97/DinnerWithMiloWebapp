@@ -13,6 +13,10 @@ const HomePage: FC<{}> = ({}) => {
     function NavigateToTacoPage() {
         window.location.assign("/tacos")
     }
+
+    function NavigateToLemonTartPage() {
+        window.location.assign("/lemontart")
+    }
     return (
         <PageBackground background_colour= {'#F2BE8C'} border_colour={'#89717B'}>
             <NavBar image_src={NavBarBackgroundImage} border_colour= {'#89717B'}/>
@@ -23,8 +27,8 @@ const HomePage: FC<{}> = ({}) => {
                     <RecipeImage src={tacoImage} onClick = {NavigateToTacoPage}/>
                 </RecipeContainer>
                 <RecipeContainer>
-                    <RecipeImage src={lemonTart} />
-                    <RecipeTitle> Tangy Lemon Tart</RecipeTitle>
+                    <RecipeImage src={lemonTart} onClick = {NavigateToLemonTartPage}/>
+                    <RecipeTitle onClick = {NavigateToLemonTartPage}> Tangy Lemon Tart</RecipeTitle>
                 </RecipeContainer>
                 <RecipeContainer>
                     <RecipeTitle> PokeBowls with Chicken Teriyaki and miso pumpkin</RecipeTitle>
