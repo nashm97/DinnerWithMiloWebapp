@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const NavBarBackground = styled.img<{ image_src: string }>(
+export const NavBarBackground = styled.div<{ image_src: string }>(
     ({image_src}) =>`
     background-image: url(${image_src}); 
     min-height: 256px;
@@ -16,7 +16,6 @@ export const NavBarContainer = styled.div<{ border_colour: string }>(
     ({border_colour}) =>`
     width: 100hh;
     height: 256px;
-    text-align: center;
     border-style: solid;
     border-color: ${border_colour};
     border-width: 30px;
@@ -28,13 +27,14 @@ export const NavBarContainer = styled.div<{ border_colour: string }>(
 
 
 export const DWMLogo = styled.img`
+margin-left:auto;
+margin-right:auto;
+margin-bottom:1000px;
+display: block;
     mix-blend-mode: multiply;
     width: 50%;
     max-width: 500px;
-    position: absolute;
-    top: 10px;
     left: max(30%, 120px);
-    z-index: 1;
 `;
 
 export const ImageContainer = styled.div`

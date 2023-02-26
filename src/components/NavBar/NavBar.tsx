@@ -19,19 +19,19 @@ export const NavBar: FC<NavBarProps> = ({image_src, border_colour}: NavBarProps)
     }
     return (
         <NavBarContainer border_colour= {border_colour}>
-            <ImageContainer>
-                <NavBarBackground image_src ={image_src}/>
+            <NavBarBackground image_src ={image_src}>
                 <DWMLogo src = {DWMLogoImage} onClick = {NavigateToHomePage}/> 
-            </ImageContainer>
-            <AboutButton onClick = {NavigateToAboutPage}>
-                <Header>About</Header>
-            </AboutButton>
-            <HomeButton onClick = {NavigateToHomePage}>
-                <Header> Home </Header>
-            </HomeButton>
-            <ConnectButton>
-                <Header> Connect</Header>
-            </ConnectButton>
+
+                <AboutButton onClick = {NavigateToAboutPage}>
+                    <Header>About</Header>
+                </AboutButton>
+                <HomeButton onClick = {NavigateToHomePage}>
+                    <Header> Home </Header>
+                </HomeButton>
+                <ConnectButton>
+                    <Header> Connect</Header>
+                </ConnectButton>
+            </NavBarBackground>
         </NavBarContainer>
     )
 } 
