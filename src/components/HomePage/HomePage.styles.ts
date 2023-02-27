@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const IntroText = styled.div`
-    font-family: Bubble World;
+    font-family: BubbleWorld;
     font-size: max(2.5vw, 25px);
     max-font-size:100px;
     text-align: center;
