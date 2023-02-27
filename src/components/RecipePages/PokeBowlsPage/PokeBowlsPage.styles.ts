@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: max(45%, 370px);
+    width: max(55%, 420px);
     height: 100px;
     margin: auto;
     margin-top:50px;
@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
 export const HeaderText = styled.div`
     position:flex;
     font-family: Superfats;
-    font-size: 250%;
+    font-size: 230%;
     padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 30px;

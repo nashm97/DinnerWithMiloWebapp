@@ -5,8 +5,9 @@ import { IntroText, RecipeGrid, RecipeContainer, RecipeTitle, RecipeImage } from
 import NavBarBackgroundImage from '../../images/homeBanner.jpg'
 import lemonTart from '../../images/lemontart.jpg'
 import tacoImage from '../../images/tacoImage.jpg'
-import pokebowlImage from '../../images/pokebowlImage.jpg'
+import pokebowlImage from '../../images/pokebowlimage.jpg'
 import beefstirfryImage from '../../images/beefstirfry.jpg'
+import whiskeysourimage from '../../images/whiskeysour.jpg'
 
 
 const HomePage: FC<{}> = ({}) => {
@@ -23,6 +24,12 @@ const HomePage: FC<{}> = ({}) => {
     function NavigateToBolognesePage() {
         window.location.assign("/bolognese")
     }
+    function NavigateToPokebowlPage() {
+        window.location.assign("/pokebowl")
+    }
+    function NavigateToWhiskeySourPage() {
+        window.location.assign("/whiskeysour")
+    }
     return (
         <PageBackground background_colour= {'#F2BE8C'} border_colour={'#89717B'}>
             <NavBar image_src={NavBarBackgroundImage} border_colour= {'#89717B'}/>
@@ -37,8 +44,8 @@ const HomePage: FC<{}> = ({}) => {
                     <RecipeTitle onClick = {NavigateToLemonTartPage}> Tangy Lemon Tart</RecipeTitle>
                 </RecipeContainer>
                 <RecipeContainer>
-                    <RecipeTitle> PokeBowls with Chicken Teriyaki and miso pumpkin</RecipeTitle>
-                    <RecipeImage src={pokebowlImage}/>
+                    <RecipeTitle onClick = {NavigateToPokebowlPage}> PokeBowls with Chicken Teriyaki and miso pumpkin</RecipeTitle>
+                    <RecipeImage src={pokebowlImage} onClick = {NavigateToPokebowlPage}/>
                 </RecipeContainer>
                 <RecipeContainer>
                     <RecipeImage src={beefstirfryImage} onClick = {NavigateToBeefStirFryPage}/>
@@ -47,6 +54,10 @@ const HomePage: FC<{}> = ({}) => {
                 <RecipeContainer>
                     <RecipeImage src={tacoImage} onClick = {NavigateToBolognesePage}/>
                     <RecipeTitle onClick = {NavigateToBolognesePage}> Spaghetti Bolognese </RecipeTitle>
+                </RecipeContainer>
+                <RecipeContainer>
+                    <RecipeTitle onClick = {NavigateToWhiskeySourPage}> whiskey sour </RecipeTitle>
+                    <RecipeImage src={whiskeysourimage} onClick = {NavigateToWhiskeySourPage}/>
                 </RecipeContainer>
             </RecipeGrid>
         </PageBackground>

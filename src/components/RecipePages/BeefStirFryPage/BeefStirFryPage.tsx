@@ -7,8 +7,8 @@ import beefstirfryImage from '../../../images/beefstirfry.jpg'
 
 const BeefStirFryPage: FC<{}> = ({}) => {
     return (
-        <PageBackground background_colour='#FFD19F' border_colour={'#CE7F55'}>
-        <NavBar image_src={NavBarBackgroundImage} border_colour= {'#CE7F55'}/>
+        <PageBackground background_colour='#E3AFB1' border_colour={'#685C6D'}>
+        <NavBar image_src={NavBarBackgroundImage} border_colour= {'#685C6D'}/>
         <HeaderContainer>
             <HeaderText>Beef and veggie stir-fry</HeaderText>
         </HeaderContainer>

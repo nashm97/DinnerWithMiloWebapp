@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LemonTartPage from './components/RecipePages/LemonTartPage/LemonTartPage';
 import BeefStirFryPage from './components/RecipePages/BeefStirFryPage/BeefStirFryPage';
 import BolognesePage from './components/RecipePages/BolognesePage/BolognesePage';
+import PokeBowlsPage from './components/RecipePages/PokeBowlsPage/PokeBowlsPage';
+import WhiskeySour from './components/RecipePages/WhiskeySourPage/WhiskeySour'
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,8 @@ function App() {
         <Route path='/lemontart' element={<LemonTartPage/>}/>
         <Route path='/bolognese' element={<BolognesePage/>}/>
         <Route path='/beefstirfry' element={<BeefStirFryPage/>}/>
+        <Route path='/pokebowl' element={<PokeBowlsPage/>}/>
+        <Route path='/whickeysour' element={<WhiskeySour/>}/>
       </Routes>
     </BrowserRouter>
   );

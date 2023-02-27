@@ -7,8 +7,8 @@ import lemonTart from '../../../images/lemontart.jpg'
 
 const BolognesePage: FC<{}> = ({}) => {
     return (
-        <PageBackground background_colour='#FFD19F' border_colour={'#CE7F55'}>
-        <NavBar image_src={NavBarBackgroundImage} border_colour= {'#CE7F55'}/>
+        <PageBackground background_colour='#947A7B' border_colour={'#3F2D33'}>
+        <NavBar image_src={NavBarBackgroundImage} border_colour= {'#3F2D33'}/>
         <HeaderContainer>
             <HeaderText>Spagetti Bolognese</HeaderText>
         </HeaderContainer>
