@@ -20,7 +20,7 @@ function App() {
         <Route path='/bolognese' element={<BolognesePage/>}/>
         <Route path='/beefstirfry' element={<BeefStirFryPage/>}/>
         <Route path='/pokebowl' element={<PokeBowlsPage/>}/>
-        <Route path='/whickeysour' element={<WhiskeySour/>}/>
+        <Route path='/whiskeysour' element={<WhiskeySour/>}/>
       </Routes>
     </BrowserRouter>
   );

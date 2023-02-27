@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.8c973765.js",
+    "main.css": "/static/css/main.e62807f2.css",
+    "main.js": "/static/js/main.f78bc207.js",
     "static/js/787.0c180bf0.chunk.js": "/static/js/787.0c180bf0.chunk.js",
+    "static/media/BubbleWorld-nRG50.ttf": "/static/media/BubbleWorld-nRG50.c4c2c5a08ba1c804e8cf.ttf",
     "static/media/homeBanner.jpg": "/static/media/homeBanner.3b1d1fce2bb447bf2a7b.jpg",
+    "static/media/whiskeysour.jpg": "/static/media/whiskeysour.22f88b4287268337747e.jpg",
+    "static/media/pokebowlimage.jpg": "/static/media/pokebowlimage.242f701bcd2cc3e4f33f.jpg",
     "static/media/DWMLogo.jpg": "/static/media/DWMLogo.5dc6d2694fea19000238.jpg",
+    "static/media/Superfats-K4Vp.ttf": "/static/media/Superfats-K4Vp.ea767e10bf4a9ec0eed5.ttf",
     "static/media/AboutBanner.jpg": "/static/media/AboutBanner.0717585cb699895a1b4e.jpg",
+    "static/media/tacoBanner.jpg": "/static/media/tacoBanner.11683d391a444cc35fc2.jpg",
+    "static/media/foo.otf": "/static/media/foo.a14bea36370443307eda.otf",
     "static/media/beefstirfry.jpg": "/static/media/beefstirfry.d33f608009d7b9dd9813.jpg",
     "static/media/tacoImage.jpg": "/static/media/tacoImage.3e6cced21a48943f51fc.jpg",
-    "static/media/pokebowlImage.jpg": "/static/media/pokebowlImage.738c6556731f7636b503.jpg",
     "static/media/lemontart.jpg": "/static/media/lemontart.e814fec4fca085151d3a.jpg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.8c973765.js.map": "/static/js/main.8c973765.js.map",
+    "main.e62807f2.css.map": "/static/css/main.e62807f2.css.map",
+    "main.f78bc207.js.map": "/static/js/main.f78bc207.js.map",
     "787.0c180bf0.chunk.js.map": "/static/js/787.0c180bf0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8c973765.js"
+    "static/css/main.e62807f2.css",
+    "static/js/main.f78bc207.js"
   ]
 }
