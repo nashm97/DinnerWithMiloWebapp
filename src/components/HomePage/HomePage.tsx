@@ -5,7 +5,7 @@ import { IntroText, RecipeGrid, RecipeContainer, RecipeTitle, RecipeImage } from
 import NavBarBackgroundImage from '../../images/homeBanner.jpg'
 import lemonTart from '../../images/lemontart.jpg'
 import tacoImage from '../../images/tacoImage.jpg'
-import pokebowlImage from '../../images/pokebowlimage.jpg'
+import pokebowlImage from '../../images/pokebowl.jpg'
 import beefstirfryImage from '../../images/beefstirfry.jpg'
 import whiskeysourimage from '../../images/whiskeysour.jpg'
 
@@ -14,7 +14,6 @@ const HomePage: FC<{}> = ({}) => {
     function NavigateToTacoPage() {
         window.location.assign("/tacos")
     }
-
     function NavigateToLemonTartPage() {
         window.location.assign("/lemontart")
     }

@@ -3,7 +3,7 @@ import { PageBackground } from '../../common/common.styles';
 import NavBar from '../../NavBar/NavBar';
 import { BodyText, HeaderContainer, HeaderText, HeaderText2, ImageIngidientsGrid, IngridientsDiv, IngridientsText, MethodDiv, MethodGrid, MethodText, RecipeImage, RecipeImageContainer, TextDiv } from './PokeBowlsPage.styles';
 import NavBarBackgroundImage from "../../../images/tacoBanner.jpg"
-import pokeBowl from '../../../images/pokebowlimage.jpg'
+import pokeBowl from '../../../images/pokebowl.jpg'
 
 const PokeBowlsPage: FC<{}> = ({}) => {
     return (
