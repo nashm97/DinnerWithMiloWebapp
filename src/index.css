@@ -25,3 +25,9 @@ code {
     url("./fonts/Superfats-K4Vp.ttf") format("truetype");
   font-weight: normal;
 } 
+@font-face {
+  font-family: "Foo";
+  src: local("Foo"),
+    url("./fonts/foo.otf") format("opentype");
+  font-weight: normal;
+} 
