@@ -27,10 +27,10 @@ export const NavBarContainer = styled.div<{ border_colour: string }>(
 
 
 export const DWMLogo = styled.img`
-margin-left:auto;
-margin-right:auto;
-margin-bottom:1000px;
-display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1000px;
+    display: block;
     mix-blend-mode: multiply;
     width: 50%;
     max-width: 500px;

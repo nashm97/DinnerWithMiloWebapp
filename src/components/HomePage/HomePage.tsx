@@ -17,6 +17,12 @@ const HomePage: FC<{}> = ({}) => {
     function NavigateToLemonTartPage() {
         window.location.assign("/lemontart")
     }
+    function NavigateToBeefStirFryPage() {
+        window.location.assign("/beefstirfry")
+    }
+    function NavigateToBolognesePage() {
+        window.location.assign("/bolognese")
+    }
     return (
         <PageBackground background_colour= {'#F2BE8C'} border_colour={'#89717B'}>
             <NavBar image_src={NavBarBackgroundImage} border_colour= {'#89717B'}/>
@@ -35,8 +41,12 @@ const HomePage: FC<{}> = ({}) => {
                     <RecipeImage src={pokebowlImage}/>
                 </RecipeContainer>
                 <RecipeContainer>
-                    <RecipeImage src={beefstirfryImage}/>
-                    <RecipeTitle> Beef and veggie stir-fry</RecipeTitle>
+                    <RecipeImage src={beefstirfryImage} onClick = {NavigateToBeefStirFryPage}/>
+                    <RecipeTitle onClick = {NavigateToBeefStirFryPage}> Beef and veggie stir-fry</RecipeTitle>
+                </RecipeContainer>
+                <RecipeContainer>
+                    <RecipeImage src={tacoImage} onClick = {NavigateToBolognesePage}/>
+                    <RecipeTitle onClick = {NavigateToBolognesePage}> Spaghetti Bolognese </RecipeTitle>
                 </RecipeContainer>
             </RecipeGrid>
         </PageBackground>
