@@ -43,7 +43,7 @@ const HomePage: FC<{}> = ({}) => {
                     <RecipeTitle onClick = {NavigateToLemonTartPage}> Tangy Lemon Tart</RecipeTitle>
                 </RecipeContainer>
                 <RecipeContainer>
-                    <RecipeTitle onClick = {NavigateToPokebowlPage}> PokeBowls with Chicken Teriyaki and miso pumpkin</RecipeTitle>
+                    <RecipeTitle onClick = {NavigateToPokebowlPage}> Poke Bowls with Chicken Teriyaki and miso pumpkin</RecipeTitle>
                     <RecipeImage src={pokebowlImage} onClick = {NavigateToPokebowlPage}/>
                 </RecipeContainer>
                 <RecipeContainer>

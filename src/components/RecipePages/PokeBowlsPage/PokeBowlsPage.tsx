@@ -10,7 +10,8 @@ const PokeBowlsPage: FC<{}> = ({}) => {
         <PageBackground background_colour='#FFD19F' border_colour={'#CE7F55'}>
         <NavBar image_src={NavBarBackgroundImage} border_colour= {'#CE7F55'}/>
         <HeaderContainer>
-            <HeaderText>chicken teriyaki pokebowl</HeaderText>
+            <HeaderText>poke bowl</HeaderText>
+            <HeaderText2> with Chicken Teriyaki and miso pumpkin </HeaderText2>
         </HeaderContainer>
         <TextDiv><BodyText>This was originally another creation by Lucy that I slowly took over the making of. She would eat it on warm summer nights when something hotter and more substantial would be too heavy. I eventually added my own Chicken Teriyaki recipe to it and I think it works just great. 
 This meal is so easy to vary by substituting out one or two ingredients and it feels like a whole new recipe. Miso eggplant is always a winner! 

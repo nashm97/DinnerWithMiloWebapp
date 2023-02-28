@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: max(55%, 420px);
+    width: max(45%, 400px);
     height: 100px;
     margin: auto;
     margin-top:50px;
