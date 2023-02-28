@@ -8,8 +8,8 @@ import whiskeysour from '../../../images/whiskeysour.jpg'
 
 const TacoPage: FC<{}> = ({}) => {
     return (
-        <PageBackground background_colour='#8B9E88' border_colour={'#4B5350'}>
-            <NavBar image_src={NavBarBackgroundImage} border_colour= {'#4B5350'}/>
+        <PageBackground background_colour='#C4C5BE' border_colour={'#26323B'}>
+            <NavBar image_src={NavBarBackgroundImage} border_colour= {'#26323B'}/>
             <HeaderContainer>
                 <HeaderText>Whiskey Sour</HeaderText>
             </HeaderContainer>
