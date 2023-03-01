@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
     text-align:center;
-    background-color: #FFB672;
+    background-color: #DD7B57;
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -73,7 +73,7 @@ export const IngridientsText = styled.text`
 
 export const RecipeImageContainer = styled.div`
     text-align: center;
-    background-color: #FFB672;
+    background-color: #DD7B57;
     border-radius: 12%;
     padding-top: 25px;
     padding-bottom: 25px;

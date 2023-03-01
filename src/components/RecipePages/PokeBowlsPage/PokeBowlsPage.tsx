@@ -7,8 +7,8 @@ import pokeBowl from '../../../images/pokebowl.jpg'
 
 const PokeBowlsPage: FC<{}> = ({}) => {
     return (
-        <PageBackground background_colour='#FFD19F' border_colour={'#CE7F55'}>
-        <NavBar image_src={NavBarBackgroundImage} border_colour= {'#CE7F55'}/>
+        <PageBackground background_colour='#F38977' border_colour={'#B34434'}>
+        <NavBar image_src={NavBarBackgroundImage} border_colour= {'#B34434'}/>
         <HeaderContainer>
             <HeaderText>poke bowl</HeaderText>
             <HeaderText2> with Chicken Teriyaki and miso pumpkin </HeaderText2>
