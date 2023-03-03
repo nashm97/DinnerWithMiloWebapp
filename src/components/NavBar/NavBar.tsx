@@ -10,7 +10,9 @@ interface NavBarProps {
 }
 
 export const NavBar: FC<NavBarProps> = ({image_src, border_colour}: NavBarProps) => {
-
+    function NavigateToInsta() {
+        window.location.href = 'https://www.instagram.com/goandgowithmilo/?hl=en';
+    }
     function NavigateToHomePage() {
         window.location.assign("/")
     }
@@ -28,7 +30,7 @@ export const NavBar: FC<NavBarProps> = ({image_src, border_colour}: NavBarProps)
                 <HomeButton onClick = {NavigateToHomePage}>
                     <Header> Home </Header>
                 </HomeButton>
-                <ConnectButton>
+                <ConnectButton onClick= {NavigateToInsta}>
                     <Header> Connect</Header>
                 </ConnectButton>
             </NavBarBackground>
