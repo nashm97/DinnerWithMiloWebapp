@@ -3,14 +3,14 @@ import { PageBackground } from '../../common/common.styles';
 import NavBar from '../../NavBar/NavBar';
 import { BodyText, HeaderContainer, HeaderText, HeaderText2, ImageIngidientsGrid, IngridientsDiv, IngridientsText, MethodDiv, MethodGrid, MethodText, RecipeImage, RecipeImageContainer, TextDiv } from './BolognesePage.styles';
 import NavBarBackgroundImage from "../../../images/tacoBanner.jpg"
-import lemonTart from '../../../images/lemontart.jpg'
+import spagbowl from '../../../images/bolognese.jpg'
 
 const BolognesePage: FC<{}> = ({}) => {
     return (
         <PageBackground background_colour='#947A7B' border_colour={'#3F2D33'}>
         <NavBar image_src={NavBarBackgroundImage} border_colour= {'#3F2D33'}/>
         <HeaderContainer>
-            <HeaderText>Spagetti Bolognese</HeaderText>
+            <HeaderText>Spaghetti Bolognese</HeaderText>
         </HeaderContainer>
         <TextDiv><BodyText>My Mother was born in Canberra in 1964 and moved to the Melbourne suburb of Springvale at the age of 5, so that my Grandfather could attend the local military base. Springvale was a hot spot for migrant families from Europe. My Grandmother was a fairly classic Australian cook, sticking to roasts, soups and stews for the most part. But while living in Springvale she made friends with an Italian woman who had migrated from Italy in the 1940s, some 30 years earlier. They formed a friendship and this woman eventually taught my grandmother how to make bolognese, how she did back home in italy. This recipe was passed down to my mother and then to me. Making it my (almost) authentic family bolognese recipe. </BodyText></TextDiv>
         <ImageIngidientsGrid>
@@ -35,7 +35,7 @@ const BolognesePage: FC<{}> = ({}) => {
 </IngridientsText>
             </IngridientsDiv>
             <RecipeImageContainer>
-                <RecipeImage src={lemonTart}/>
+                <RecipeImage src={spagbowl}/>
                 
             </RecipeImageContainer>
         </ImageIngidientsGrid>

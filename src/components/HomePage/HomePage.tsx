@@ -8,6 +8,8 @@ import tacoImage from '../../images/tacoImage.jpg'
 import pokebowlImage from '../../images/pokebowl.jpg'
 import beefstirfryImage from '../../images/beefstirfry.jpg'
 import whiskeysourimage from '../../images/whiskeysour.jpg'
+import spagbowl from '../../images/bolognese.jpg'
+
 
 
 const HomePage: FC<{}> = ({}) => {
@@ -51,7 +53,7 @@ const HomePage: FC<{}> = ({}) => {
                     <RecipeTitle onClick = {NavigateToBeefStirFryPage}> Beef and veggie stir-fry</RecipeTitle>
                 </RecipeContainer>
                 <RecipeContainer>
-                    <RecipeImage src={tacoImage} onClick = {NavigateToBolognesePage}/>
+                    <RecipeImage src={spagbowl} onClick = {NavigateToBolognesePage}/>
                     <RecipeTitle onClick = {NavigateToBolognesePage}> Spaghetti Bolognese </RecipeTitle>
                 </RecipeContainer>
                 <RecipeContainer>

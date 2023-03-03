@@ -36,3 +36,14 @@ export const BodyText = styled.text`
     font-size:135%;
     font-weight: bold;
 `;
+
+export const TextContainer = styled.div`
+
+`;
+
+export const HeadshotImage = styled.img`
+    position:flex;
+    width: 20%;
+    border-radius: 12%;
+    margin-left:40%
+`;
