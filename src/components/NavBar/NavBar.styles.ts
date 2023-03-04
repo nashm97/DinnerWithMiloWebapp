@@ -25,16 +25,22 @@ export const NavBarContainer = styled.div<{ border_colour: string }>(
     `
 );
 
-
+export const Grid = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    justify-content: space-evenly;
+    column-gap: 5%;
+    row-gap: 5%;
+`;
 export const DWMLogo = styled.img`
-    margin-left:auto;
+    margin-left:min(-10%, -60px);
     margin-right:auto;
-    margin-bottom:1000px;
+    margin-top: max(5%,20px);
+    margin-bottom:auto;
     display: block;
     mix-blend-mode: multiply;
-    width: 50%;
+    width: max(160%, 200px);
     max-width: 500px;
-    left: max(30%, 120px);
 `;
 
 export const ImageContainer = styled.div`
@@ -49,22 +55,37 @@ export const Header = styled.div`
 `;
 
 export const AboutButton = styled.div`
-    position: absolute;
     top: 60px;
     left: 77%;
     min-width: 150px;
+    margin-left: max(10%, 25px);
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
 `;
 
 export const HomeButton = styled.div`
-    position: absolute;
     top: 60px;
     left: 10%;
     min-width: 50px;
+    margin: auto;
+
 `;
 
 export const ConnectButton = styled.div`
-    position: absolute;
     top: 183px;
     left: max(40%, 130px);
     min-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+`;
+export const ButtonDiv = styled.div`
+    top: 60px;
+    left: 10%;
+    min-width: 50px;
+    margin: auto;
+
 `;

@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { scryRenderedDOMComponentsWithTag } from 'react-dom/test-utils';
-import { NavBarBackground, NavBarContainer, ImageContainer, AboutButton, Header, HomeButton, ConnectButton } from './NavBar.styles';
+import { NavBarBackground, NavBarContainer, ImageContainer, AboutButton, Header, HomeButton, ConnectButton, Grid, ButtonDiv } from './NavBar.styles';
 import { DWMLogo } from './NavBar.styles';
 import DWMLogoImage from '../../images/DWMLogo.jpg';
 
@@ -22,17 +22,20 @@ export const NavBar: FC<NavBarProps> = ({image_src, border_colour}: NavBarProps)
     return (
         <NavBarContainer border_colour= {border_colour}>
             <NavBarBackground image_src ={image_src}>
-                <DWMLogo src = {DWMLogoImage} onClick = {NavigateToHomePage}/> 
-
-                <AboutButton onClick = {NavigateToAboutPage}>
-                    <Header>About</Header>
-                </AboutButton>
-                <HomeButton onClick = {NavigateToHomePage}>
-                    <Header> Home </Header>
-                </HomeButton>
-                <ConnectButton onClick= {NavigateToInsta}>
-                    <Header> Connect</Header>
-                </ConnectButton>
+                <Grid>
+                    <HomeButton onClick = {NavigateToHomePage}>
+                        <Header> Home </Header>
+                    </HomeButton>
+                    <DWMLogo src = {DWMLogoImage} onClick = {NavigateToHomePage}/> 
+                    <AboutButton onClick = {NavigateToAboutPage}>
+                        <Header>About</Header>
+                    </AboutButton>
+                    <ButtonDiv></ButtonDiv>
+                    <ConnectButton onClick= {NavigateToInsta}>
+                        <Header> Connect</Header>
+                    </ConnectButton>
+                    <ButtonDiv></ButtonDiv>
+                </Grid>
             </NavBarBackground>
         </NavBarContainer>
     )
