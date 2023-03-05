@@ -12,20 +12,20 @@ const BeefStirFryPage: FC<{}> = ({}) => {
         <HeaderContainer>
             <HeaderText>Beef and veggie stir-fry</HeaderText>
         </HeaderContainer>
-        <TextDiv><BodyText>Hello DWM fans, this is a guest appearance from Lucy. This is a fast and flavoursome weeknight dinner recipe that is on rotation at our house.<br/><br/>
+        <TextDiv><BodyText>This is a fast and flavoursome weeknight dinner recipe that is on rotation at our house.<br/><br/>
 
 We don’t cook with a lot of red meat at home but this recipe satisfies a mid week craving. It’s quick and most of the ingredients we have on hand in the pantry. This recipe can be made in the time that it takes the brown rice to cook - there’s something satisfying about that.
 </BodyText></TextDiv>
         <ImageIngidientsGrid>
             <IngridientsDiv>
                 <IngridientsText>
-                Marinade<br/>
+                Marinade: <br/><br/>
 - 2 crushed garlic cloves<br/>
 - 1tbsp grated ginger <br/>
 - - 4tbsp oyster sauce<br/>
 - 2 tbsp soy sauce<br/>
 - 2 tbsp Chinese cooking wine<br/>
-Stir Fry Ingredients <br/>
+Stir Fry Ingredients: <br/><br/>
 - 500g stir fry quality beef<br/>
 - Peanut oil<br/>
 - 1 red onion<br/>
@@ -87,7 +87,7 @@ Throw in chilli flakes and cashews if you are using them and toss the wok a few 
 
 
 Serve stir fry on brown rice and enjoy!<br/><br/>
-serves 4
+Serves 4
                 </MethodText>
             </MethodDiv>
         </MethodGrid>

@@ -20,7 +20,7 @@ The creation of traditions and habits over a extended period of time, through re
         <ImageIngidientsGrid>
             <IngridientsDiv>
                 <IngridientsText>
-                Chicken Teriyaki: <br/>
+                Chicken Teriyaki: <br/><br/>
 - 600g chicken breast or thighs<br/>
 - Corn flour<br/>
 - Peanut oil<br/>
@@ -29,7 +29,7 @@ The creation of traditions and habits over a extended period of time, through re
 - 120ml soy sauce<br/>
 - 2 tbsp castor sugar<br/>
 
-Miso Pumpkin:<br/>
+Miso Pumpkin:<br/><br/>
 - ¼  of a Kent Pumpkin<br/>
 - 4 tbsp miso paste<br/>
 - 4 tbsp sesame oil<br/>
@@ -59,7 +59,7 @@ The rest: <br/>
 
 Put the mirin and rice wine in a saucepan and let it simmer, until lots of bubbles form and then add the 120ml soy sauce and the castor sugar. Let it simmer on low heat until it thickens. <br/><br/>
 
-Remove the seeds and cut the pumpkin into 1cm thick slices. Add the miso, sesame oil, rice wine vinegar, rest of the soy sauce and the chilli powder into a jar and shaker to combine. Place the pumpkin on a tray and coat it in the well miso mix. Put in the oven on 180ºC for 40 mins, flip at the 20 mins mark and cook until tender. <br/><br/>
+Remove the seeds and cut the pumpkin into 1cm thick slices. Add the miso, sesame oil, rice wine vinegar, rest of the soy sauce and the chilli powder into a jar and shaker to combine. Place the pumpkin on a tray and coat it well in the  miso mix. Put in the oven on 180ºC for 40 mins, flip at the 20 mins mark and cook until tender. <br/><br/>
                 </MethodText>
             </MethodDiv>
             <MethodDiv>
@@ -67,7 +67,7 @@ Remove the seeds and cut the pumpkin into 1cm thick slices. Add the miso, sesame
                 Fill a pot with water and add the brown rice, put it on medium-high heat for 30 min or until the grains turn al dente. <br/><br/>
 
 Cut the chicken into 2cm chunks and place in a pan on high heat with the teriyaki sauce, cook for a further 5 mins or until the sauce has thickened and the chicken is well coated.  <br/><br/>
-Put the edamame in a bowl and put in the microwave for 1 minute. Then  <br/><br/>
+Put the edamame in a bowl and put in the microwave for 1 minute.  <br/><br/>
 Put the rice in the bowl, along with the pumpkin and chicken. Slice the avocado lengthways and arrange it in the bowl. Place a handful of the spinach leaves in the bowl and add the shallots, sushi seasoning and pickled ginger on top. <br/><br/>
 
 Serves 4-5. <br/><br/>

@@ -16,13 +16,14 @@ const LemonTartPage: FC<{}> = ({}) => {
         <ImageIngidientsGrid>
             <IngridientsDiv>
                 <IngridientsText>
-                - 150g unsalted butter <br/>
+pastry:<br/><br/>
+- 150g unsalted butter <br/>
 - 250g bakers flour<br/>
 - pinch of salt<br/>
 - 1/4 cup water<br/>
 - 50g castor sugar<br/>
 - 1 egg<br/>
-- Lemon Tart Mixture:<br/>
+Lemon Tart Mixture:<br/><br/>
 - 6 eggs<br/>
 - 240g caster sugar<br/>
 - Finely grated zest and juice of 4-5 lemons<br/>
@@ -48,7 +49,7 @@ const LemonTartPage: FC<{}> = ({}) => {
                 Zest and juice the lemons into a bowl and then mix in the sugar and eggs until well amalgamated. Once this is done you can add the cream and stir well. <br/><br/>
                 Pour the mixture into the pastry, then place it into the oven for 40 minutes or until small bubbles have started to form on the top surface of the tart.<br/><br/>
 
-                Take the pastry out of the oven and let it cool to room temperature. Place the pastry in its tin on top of a can top free it from the tin then you can store it in the fridge for up to 3 days.<br/><br/>
+                Take the tart out of the oven and let it cool to room temperature. Place the tart in its tin on top of a can top free it from the tin then you can store it in the fridge for up to 3 days.<br/><br/>
 
                 Serves 8-10 easily<br/><br/>
                 </MethodText>

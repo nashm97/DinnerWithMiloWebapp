@@ -14,8 +14,8 @@ const AboutPage: FC<{}> = ({}) => {
                 <HeaderText>About Me</HeaderText>
             </HeaderContainer>
             <TextContainer>
-                <TextDiv><BodyText>I spent a lot of my life thinking I was not a creative person, always being more analytically inclined than artistically. This led me down the path of studying Science and Mathematics and eventually becoming a Software Engineer. </BodyText></TextDiv>
-                <TextDiv><BodyText>This way of thinking changed, when at the age of 20 I suddenly 'woke-up' and started to finally see all the ways that I have been creative my whole life. Out of nowhere it was as if my perception of the world had changed, I started to see and embrace my 'creative' side.</BodyText></TextDiv>
+                <TextDiv><BodyText>I spent a lot of my life thinking I was not a creative person, always being more analytically inclined than artistically. This led me down the path of studying science and mathematics and eventually becoming a Software Engineer. </BodyText></TextDiv>
+                <TextDiv><BodyText>This way of thinking changed, when at the age of 20 I suddenly realised and started to finally see all the ways that I have been creative my whole life. Out of nowhere it was as if my perception of the world had changed, I started to see and embrace my 'creative' side.</BodyText></TextDiv>
                 <TextDiv><BodyText>This is where cooking came into the picture, I had always loved to cook and my mum had always given me the bandwidth to express this in the family home. I had gained invaluable skills and this sparked a real interest in me. I began experimenting with food and how I could create different flavours and textures. It was all about the process of making something for the people around you and being able to share the joy of eating it with them. </BodyText></TextDiv>
                 <HeadshotImage src = {headshot}/>
 

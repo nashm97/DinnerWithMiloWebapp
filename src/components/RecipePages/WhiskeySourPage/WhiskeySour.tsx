@@ -35,7 +35,7 @@ This is a crowd pleaser for almost any occasion and my favourite cocktail. The k
             <MethodGrid>
                 <MethodDiv>
                     <MethodText>
-                    At Least 1 hour before wanting to drink the whiskey sour, boil the kettle and pour 20ml of water into a bowl and add 20ml equivalent of castor sugar to the bowl, stir well until the sugar granules dissolve. Let the sugar syrup cool. <br/><br/>
+                    At least 1 hour before wanting to drink the whiskey sour, boil the kettle and pour 20ml of water into a bowl and add 20ml equivalent of castor sugar to the bowl, stir well until the sugar granules dissolve. Let the sugar syrup cool. <br/><br/>
 
 Juice 1 or 2 lemons and sieve the juice to remove any pulp.<br/><br/>
 Separate 1 egg and depose of the yolk.  <br/><br/>
