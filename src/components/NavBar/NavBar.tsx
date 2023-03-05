@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { scryRenderedDOMComponentsWithTag } from 'react-dom/test-utils';
-import { NavBarBackground, NavBarContainer, ImageContainer, AboutButton, Header, HomeButton, ConnectButton, Grid, ButtonDiv } from './NavBar.styles';
+import { NavBarBackground, NavBarContainer, ImageContainer, AboutButton, Header, HomeButton, ConnectButton, Grid, ButtonDiv, TextReference } from './NavBar.styles';
 import { DWMLogo } from './NavBar.styles';
 import DWMLogoImage from '../../images/DWMLogo.jpg';
 
@@ -36,6 +36,7 @@ export const NavBar: FC<NavBarProps> = ({image_src, border_colour}: NavBarProps)
                     </ConnectButton>
                     <ButtonDiv></ButtonDiv>
                 </Grid>
+                <TextReference> Image by Gabriel Nash</TextReference>
             </NavBarBackground>
         </NavBarContainer>
     )

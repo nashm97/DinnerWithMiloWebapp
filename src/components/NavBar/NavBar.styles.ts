@@ -79,8 +79,7 @@ export const ConnectButton = styled.div`
     min-width: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top:-5px;
 `;
 export const ButtonDiv = styled.div`
     top: 60px;
@@ -88,4 +87,7 @@ export const ButtonDiv = styled.div`
     min-width: 50px;
     margin: auto;
 
+`;
+
+export const TextReference = styled.div`
 `;
